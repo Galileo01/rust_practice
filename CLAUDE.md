@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository contains Rust practice code with a primary focus on an arithmetic expression evaluator. The main project is located in the `expr-eval` subdirectory.
+This repository contains Rust practice projects. The main projects are located in the `expr-eval` and `bestls` subdirectories.
 
 ## Directory Structure
 
@@ -14,6 +14,10 @@ This repository contains Rust practice code with a primary focus on an arithmeti
   - `src/main.rs`: Main executable containing the expression parser and evaluator
   - `Cargo.toml`: Project metadata and dependencies
   - `Cargo.lock`: Lock file for dependencies
+
+- `/bestls`: A `ls`-like CLI tool for listing directory contents in table or JSON format
+  - `src/main.rs`: Main executable with directory reading, table rendering, and JSON output
+  - `Cargo.toml`: Project metadata and dependencies
 
 ## Common Commands
 
